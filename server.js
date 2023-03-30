@@ -32,7 +32,7 @@ if (err) {
 
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
-    res.setHeader('content-type', "text/html");
+    res.setHeader('content-type', `text/html`);
     res.end(data);
 })
 
